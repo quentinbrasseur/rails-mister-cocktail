@@ -1,1 +1,13 @@
-<h1>Index cocktails</h1>
+<h1 class="text-center">My list of ingredients</h1>
+<% @cocktails.each do |cocktail| %>
+  <h2><%= cocktail.name %></h2>
+  <%= link_to "Details", cocktail %>
+<% end %>
+
+
+
+<h1 class="text-center">My list of cocktails</h1>
+<% @cocktails.each do |cocktail| %>
+  <h2><%= cocktail.name %></h2>
+  <%= link_to "Details", cocktail %>
+<% end %>
