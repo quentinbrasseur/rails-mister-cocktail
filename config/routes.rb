@@ -6,4 +6,7 @@ Rails.application.routes.draw do
   end
 
   resources :doses, only: [:edit, :update, :destroy]
+  mount Attachinary::Engine => "/attachinary"
 end
+
+

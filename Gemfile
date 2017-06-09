@@ -13,6 +13,11 @@ gem 'simple_form'
 gem 'autoprefixer-rails'
 
 gem 'figaro'
+gem 'cloudinary'
+
+gem 'attachinary', github: 'assembler/attachinary'
+gem 'jquery-fileupload-rails'
+
 
 gem 'indent', '~> 1.0'
 
